@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+.App {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #008080; /* Teal color */
+}
+
+h3 {
+    color: #00BFFF; /* Bright teal */
+}
+
+button {
+    background-color: #008080; /* Teal background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00BFFF; /* Bright teal on hover */
+}
+
+select {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333; /* Darker background for the select box */
+    color: #fff; /* White text */
+}
+
+select option {
+    background-color: #000; /* Black background for options */
+    color: #fff; /* White text */
+}
+
+.subscription {
+    background-color: #111; /* Dark gray for subscription cards */
+    border: 1px solid #008080; /* Teal border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
